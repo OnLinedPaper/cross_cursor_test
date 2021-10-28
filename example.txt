@@ -1,0 +1,1 @@
+xcursorgen configs/<name>.cursor cursors/<name>

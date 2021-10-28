@@ -1,0 +1,11 @@
+step  1: create a png
+
+step  2: make a config for the png
+      2.1a: <size> <x spot> <y spot> <imgdir>/<imgname>
+      2.1b: <size> <xspot> <yspot> <imgdir>/<imgname> <ms duration>
+
+step  3: generate the cursor file with xcursorgen
+      3.1: xcursorgen <cfgdir>/<name>.cursor <cursordir>/<cursorname>
+
+step  4: generate symbolic links from X names to cursor names
+      4.1: ln -s <my input cursor name> <X desired output cursor name>
